@@ -1,5 +1,3 @@
-# Confluence
-
 Confluence is a generative art project. The series has 1,000 pieces.
 
 ## The Concept
@@ -12,23 +10,23 @@ The motivation behind the series was curiosity. Curiosity to see how an AI model
 
 The artist's [physical sketchbook][sketchbook] that the AI model was trained on had sketches, doodles, paper cutting, mandalas, zentangles -- often with a brief hand-written description. 
 
-<img class="inline-pic" src="static/img/confluence/sketches.png">
+<img src="sketches.png">
 
 These are example generations from the AI generative model -- a GAN (Generative Adversarial Network) -- trained on the sketchbook.
 
-<img class="inline-pic" src="static/img/confluence/generations.png">
+<img src="generations.png">
 
 These generations are re-rendered using image processing techniques ...
 
-<img class="inline-pic" src="static/img/confluence/canonical.png">
+<img src="canonical.png">
 
 ... and then re-colored in one of 39 hand-designed palettes.
 
-<img class="inline-pic" src="static/img/confluence/palettes.png">
+<img src="palettes.png">
 
 The amount of black marks in the piece changes its aesthetic in appealing ways. Some pieces have a *minimal* or a *sparse* set of marks, while others have a *healthy* amount or *many* marks.
 
-<img class="inline-pic" src="static/img/confluence/marks.png">
+<img src="marks.png">
 
 In addition to the black marks, each piece may have 1, 2, 3 or 4 colors in it. 
 
@@ -36,7 +34,7 @@ Each piece is re-interpreted by an AI model. It is fascinating to see what an AI
 
 Finally, a piece may be static, or animated!
 
-<img class="inline-pic-half" src="static/img/confluence/737.gif">
+<img src="737.gif">
 
 ## The Traits
 
