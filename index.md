@@ -9,7 +9,7 @@ permalink: /
 
 # Confluence
 
-Confluence is a generative art project by [Devi Parikh][devi]. The series has 1,000 pieces.
+Confluence is a generative art project by [Devi Parikh][devi]. The series has 1,000 pieces. Test.
 
 ## The Concept
 
