@@ -1,1 +1,1 @@
-Code for https://deviparikh.github.io/Confluence/
+Code for https://deviparikh.github.io/confluence/
