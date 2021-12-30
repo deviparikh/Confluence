@@ -21,23 +21,23 @@ The motivation behind the series was curiosity. Curiosity to see how an AI model
 
 The artist's [physical sketchbook][sketchbook] that the AI model was trained on had sketches, doodles, paper cutting, mandalas, zentangles -- often with a brief hand-written description. 
 
-<img class="inline-pic" src="static/img/sketches.png">
+<img class="inline-pic" src="../static/img/sketches.png">
 
 These are example generations from the AI generative model -- a GAN (Generative Adversarial Network) -- trained on the sketchbook.
 
-<img class="inline-pic" src="static/img/generations.png">
+<img class="inline-pic" src="../static/img/generations.png">
 
 These generations are re-rendered using image processing techniques ...
 
-<img class="inline-pic" src="static/img/canonical.png">
+<img class="inline-pic" src="../static/img/canonical.png">
 
 ... and then re-colored in one of 39 hand-designed palettes.
 
-<img class="inline-pic" src="static/img/palettes.png">
+<img class="inline-pic" src="../static/img/palettes.png">
 
 The amount of black marks in the piece changes its aesthetic in appealing ways. Some pieces have a *minimal* or a *sparse* set of marks, while others have a *healthy* amount or *many* marks.
 
-<img class="inline-pic" src="static/img/marks.png">
+<img class="inline-pic" src="../static/img/marks.png">
 
 In addition to the black marks, each piece may have 1, 2, 3 or 4 colors in it. 
 
@@ -45,7 +45,7 @@ Each piece is re-interpreted by an AI model. It is fascinating to see what an AI
 
 Finally, a piece may be static, or animated!
 
-<img class="inline-pic-half" src="static/img/737.gif">
+<img class="inline-pic-half" src="../static/img/737.gif">
 
 ## The Traits
 
