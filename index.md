@@ -47,7 +47,7 @@ Each piece is re-interpreted by an AI model. It is fascinating to see what an AI
 
 Finally, a piece may be static, or animated!
 
-<img class="inline-pic-half" src="static/img/737.gif">
+<img class="inline-pic-half" src="static/img/animated.gif">
 
 ## The Traits
 
