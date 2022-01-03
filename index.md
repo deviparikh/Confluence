@@ -9,7 +9,7 @@ permalink: /
 
 # Confluence
 
-Confluence is a generative art project by [Devi Parikh][devi].
+Confluence is a generative art project by [Devi Parikh][devi] on [BrainDrops][braindrops].
 
 <img class="inline-pic" src="static/img/collage.png">
 
