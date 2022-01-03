@@ -1,7 +1,7 @@
 ---
 layout: pub
 urltitle: "Confluence"
-title: "Confluence"
+title: "Confluence -- AI Generative Art by Devi Parikh"
 categories: Confluence, Generative Art, AI, Devi Parikh, 
 favicon: static/img/confluence.png
 permalink: /
