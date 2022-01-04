@@ -83,9 +83,9 @@ She has dabbled in sketching, painting, origami, dancing, music all her life -- 
 Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can also find her on [Twitter][tw], [Instagram][insta], [Foundation][fnd] and [fxhash][fxhash]. 
 
 [braindrops]: https://twitter.com/braindrops_art
-[sketchbook]: ./sketchbook.html
-[macrame]: ./macrame.html
-[origami]: ./origami.html
+[sketchbook]: https://www.cc.gatech.edu/~parikh/sketchbook.html
+[macrame]: https://www.cc.gatech.edu/~parikh/macrame.html
+[origami]: https://www.cc.gatech.edu/~parikh/origami.html
 [soth]: http://stateoftheheart.ai/ 
 [rorschach]: https://en.wikipedia.org/wiki/Rorschach_test
 [pareidolia]: https://en.wikipedia.org/wiki/Pareidolia
@@ -93,5 +93,5 @@ Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can al
 [tw]: https://twitter.com/deviparikh
 [insta]: https://www.instagram.com/deviparikh/
 [fnd]: https://foundation.app/@deviparikh
-[fxhash]:  https://www.fxhash.xyz/u/Devi%20Parikh
+[fxhash]: https://www.fxhash.xyz/u/Devi%20Parikh
 
