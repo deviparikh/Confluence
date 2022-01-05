@@ -61,7 +61,7 @@ All in all, the pieces in this series have five traits:
 * AI-Pareidolia: indicates what an AI model sees in the piece
   * 52 values: Skateboard, Fish, Cake, Surfboard, Train, Skateboarder, Face, Woman, Cartoon, Vase, Flower, Scissors, Elephant, Fire-hydrant, Items, Dog, Tree, Kite, Striped, Flag, Collage, Shirt, Paint, Stuffed-animal, Graffiti, Air, People, Bird, Water, Rose, Table, Banana, Cow, Animal, Penguin, Checkered, Bear, Photo, Kitty, Horse, Toy, Sign, Painting, Airplane, Butterfly, Beach, Plant, Person, Girl, Wall, Cat, Man
 * Format: indicates whether the piece is an image or a short video
-  * 2 values: png, mp4.
+  * 2 values: png, mp4
 
 ## The Rarities
 
