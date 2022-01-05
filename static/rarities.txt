@@ -1,0 +1,112 @@
+The number of pieces out of 1,000 that have each trait are listed below:
+
+Palette
+Home 103
+Scheme 83
+Wood 63
+Iconic 53
+Love 43
+Magritte 30
+Truth 30
+Warhol 29
+Gogh 28
+Munch 27
+Monet 26
+Lichtenstein 25
+Gauguin 24
+Dali 23
+Deep 21
+Authentic 20
+Bright 20
+Business 20
+Cake 20
+Cartoon 20
+Cotton-candy 20
+Ethnic 20
+Gradient 20
+Icing 20
+Journal 20
+Meadow 20
+Salient 20
+Surprise 20
+Safe 19
+Insomnia 18
+Birthday 17
+Potential 16
+Mighty 15
+Activity 14
+Grown-up 13
+Gold 12
+Pop 4
+Neon 2
+Statement 2
+ 
+Colorful
+Di 453
+Tri 448
+Tetra 75
+Mono 24
+ 
+Marks
+Many 363
+Healthy 356
+Sparse 254
+Minimal 27
+ 
+AI-Pareidolia
+Wall 239
+Person 188
+Bird 101
+Table 63
+Animal 44
+Cow 33
+Flower 31
+Kite 31
+Penguin 28
+Cat 26
+Dog 22
+Cartoon 21
+Skateboard 19
+Stuffed-animal 19
+Man 15
+Elephant 12
+Woman 8
+Kitty 7
+Banana 6
+Photo 6
+Surfboard 6
+Beach 5
+Butterfly 5
+Fire-hydrant 5
+Plant 5
+Bear 4
+Scissors 4
+Sign 4
+Air 3
+Face 3
+Fish 3
+Girl 3
+Graffiti 3
+People 3
+Tree 3
+Vase 3
+Painting 2
+Rose 2
+Toy 2
+Airplane 1
+Cake 1
+Checkered 1
+Collage 1
+Flag 1
+Horse 1
+Items 1
+Paint 1
+Shirt 1
+Skateboarder 1
+Striped 1
+Train 1
+Water 1
+ 
+Format
+png 984
+mp4 16

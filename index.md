@@ -65,8 +65,7 @@ All in all, the pieces in this series have five traits:
 
 ## The Rarities
 
-The number of pieces out of 1,000 that have each trait will be listed here after the drop.
-<!-- [here][rarities]. -->
+The number of pieces out of 1,000 that have each trait are listed [here][rarities].
 
 ## The Artist
 
@@ -94,4 +93,4 @@ Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can al
 [insta]: https://www.instagram.com/deviparikh/
 [fnd]: https://foundation.app/@deviparikh
 [fxhash]: https://www.fxhash.xyz/u/Devi%20Parikh
-
+[rarities]: ./static/rarities.txt
