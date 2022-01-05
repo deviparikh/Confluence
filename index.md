@@ -52,8 +52,6 @@ Finally, a piece may be static, or animated!
 ## The Traits
 
 All in all, the pieces in this series have five traits:
-* Media: indicates whether the piece is an image or a short video
-  * 2 values: Static, Animated.
 * Palette: indicates which palette the colors are from
   * 39 values: Magritte, Birthday, Ethnic, Love, Activity, Cartoon, Neon, Surprise, Cotton-candy, Truth, Safe, Home, Wood, Mighty, Insomnia, Munch, Monet, Gold, Grown-up, Pop, Lichtenstein, Statement, Scheme, Meadow, Cake, Journal, Warhol, Gradient, Salient, Potential, Dali, Iconic, Gauguin, Icing, Deep, Authentic, Bright, Business, Gogh
 * Colorful: indicates how many colors a piece has
@@ -62,6 +60,8 @@ All in all, the pieces in this series have five traits:
   * 4 values: Minimal, Sparse, Healthy, Many
 * AI-Pareidolia: indicates what an AI model sees in the piece
   * 52 values: Skateboard, Fish, Cake, Surfboard, Train, Skateboarder, Face, Woman, Cartoon, Vase, Flower, Scissors, Elephant, Fire-hydrant, Items, Dog, Tree, Kite, Striped, Flag, Collage, Shirt, Paint, Stuffed-animal, Graffiti, Air, People, Bird, Water, Rose, Table, Banana, Cow, Animal, Penguin, Checkered, Bear, Photo, Kitty, Horse, Toy, Sign, Painting, Airplane, Butterfly, Beach, Plant, Person, Girl, Wall, Cat, Man
+* Format: indicates whether the piece is an image or a short video
+  * 2 values: png, mp4.
 
 ## The Rarities
 
