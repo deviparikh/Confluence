@@ -94,4 +94,4 @@ Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can al
 [fnd]: https://foundation.app/@deviparikh
 [fxhash]: https://www.fxhash.xyz/u/Devi%20Parikh
 [rarities]: https://deviparikh.github.io/confluence/static/rarities.txt
-[overall]: https://deviparikh.github.io/confluence/static/overall_rarity_scores
+[overall]: https://deviparikh.github.io/confluence/static/overall_rarity_scores.txt
