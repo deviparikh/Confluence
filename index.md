@@ -1,52 +1,75 @@
 ---
 layout: pub
-urltitle: "Aragnation"
-title: "An AI Generative Art Project by Devi Parikh & Abhishek Das"
-categories: Aragnation, Generative Art, AI Art, Devi Parikh, Abhishek Das
-favicon: static/img/aragnation.png
+urltitle: "Confluence"
+title: "An AI Generative Art Project by Devi Parikh"
+categories: Confluence, Generative Art, AI, Devi Parikh, 
+favicon: static/img/confluence.png
 permalink: /
 ---
 
-# Aragnation
+# Confluence
 
-Aragnation is a long-form generative art project by by [Devi Parikh][devi] and [Abhishek Das][das] on [ArtBlocks][artblocks].  
+Confluence is a generative art project by [Devi Parikh][devi] on [BrainDrops][braindrops].
 
-<img class="inline-pic" src="static/img/aragnation_collage.png">
+<img class="inline-pic" src="static/img/collage.png">
 
 ## The Concept
 
-Aragnation questions preconceived notions of what AI art can be. Does AI art have to be powered by giant neural networks? Do the aesthetics have to be that of photos or paintings or collages of pieces thereof?
+This series is part AI, part human analog art, and part human digital art. Pieces are generated using a neural generative model (AI) trained on the artist's physical sketchbook. Generations are re-rendered in a variety of palettes. Taking the confluence of human and machine a step further, the pieces are interpreted by an AI model.
 
-Aragnation uses tiny AI models and constructs abstract imagery in the vocabulary of abstract blobs and organic textures rather than pixels. It is playful with colors. It has a hint of a watercolor and art paper aesthetic. 
+The motivation behind the series was curiosity. Curiosity to see how an AI model will consume art in a sketchbook that was not intended to be coherent or have an audience. Curiosity to see what form the art will take when reproduced by an AI model -- which features of the generated art will be recognizable as coming from the artist's sketches, which ones will seem foreign, and which ones will be a confluence. Curiosity to see what opportunities the generations from the AI model will present to give the artist their voice back, to make the pieces their own. Again, which features from the AI generations will survive, which ones will be removed, and which ones will be a confluence. Taking a step back, this is an exercise in exploring how AI tools can enhance human creative expression.
 
-The training data includes photographs taken by one of the artists, Abhishek.  The generated pieces thus capture, in broad strokes, [Abhishek’s photography][das-photos] – nature, landscapes and urban settings.
+## The Visuals
 
-In a refreshing contrast to the gravity of the role AI technology is playing in content creation and creative expression, Aragnation brings a light and joyful touch to generative AI art. 
+The artist's [physical sketchbook][sketchbook] that the AI model was trained on had sketches, doodles, paper cutting, mandalas, zentangles -- often with a brief hand-written description. 
 
-No GPUs were harmed in the making of Aragnation. All AI models are entirely different architectures than those commonly used, and have been designed and trained from scratch by the artists.
+<img class="inline-pic" src="static/img/sketches.png">
 
-## The Features
+These are example generations from the AI generative model -- a GAN (Generative Adversarial Network) -- trained on the sketchbook.
 
-Aragnation has six features.
+<img class="inline-pic" src="static/img/generations.png">
 
-1. Paper: The background paper is one of four styles -- graph, rods and cones, marble, and fabric
-2. Colors: The colors are either sampled using an AI model or randomly for a more playful aesthetic
-3. Palette: One of fourteen palettes partially curated by the AI model
-4. Subject: An AI model assigns the generated piece to one of four categories -- flower, bird, urban and landscape
-5. Texture: The texture of a piece is either plain or has a gradient generated using an AI model
-6. Reflection: Some of the pieces have added depth to them via a horizontal reflection 
+These generations are re-rendered using image processing techniques ...
 
-## The Artists
+<img class="inline-pic" src="static/img/canonical.png">
 
-Devi and Abhishek have collaborated on dozens of projects since 2015. Many in AI, some in art, and some unrelated to either AI or art. Abhishek first introduced Devi to generative art in 2018!
+... and then re-colored in one of 39 hand-designed palettes.
 
-### Abhishek Das
+<img class="inline-pic" src="static/img/palettes.png">
 
-In his day job, Abhishek Das is an artificial intelligence researcher, i.e., he builds algorithms to mimic intelligence or the biological brain. Much like that, his art explores algorithms to mimic textures from the physical world – paper, ink, cloth, sand, paintings.
+The amount of black marks in the piece changes its aesthetic in appealing ways. Some pieces have a *minimal* or a *sparse* set of marks, while others have a *healthy* amount or *many* marks.
 
-### Devi Parikh
+<img class="inline-pic" src="static/img/marks.png">
 
-Devi Parikh is an AI researcher and a generative artist. She also makes [Macrame][macrame], [Origami][origami], and maintains a physical sketchbook with kawaii doodles, zentangles, mandalas, paper cutting and sketches. 
+In addition to the black marks, each piece may have 1, 2, 3 or 4 colors in it. 
+
+Each piece is re-interpreted by an AI model. It is fascinating to see what an AI model sees in these abstract forms. Think of it like the [Rorschach test][rorschach] or examination of [Pareidolia][pareidolia] in AI models :) AI models may see any one of 52 concepts in these pieces -- ranging from people and animals to everyday objects.
+
+Finally, a piece may be static, or animated!
+
+<img class="inline-pic-half" src="static/img/animated.gif">
+
+## The Traits
+
+All in all, the pieces in this series have five traits:
+* Palette: indicates which palette the colors are from
+  * 39 values: Magritte, Birthday, Ethnic, Love, Activity, Cartoon, Neon, Surprise, Cotton-candy, Truth, Safe, Home, Wood, Mighty, Insomnia, Munch, Monet, Gold, Grown-up, Pop, Lichtenstein, Statement, Scheme, Meadow, Cake, Journal, Warhol, Gradient, Salient, Potential, Dali, Iconic, Gauguin, Icing, Deep, Authentic, Bright, Business, Gogh
+* Colorful: indicates how many colors a piece has
+  * 4 values: Mono, Di, Tri, Tetra
+* Marks: indicates the amount of black marks in the pieces
+  * 4 values: Minimal, Sparse, Healthy, Many
+* AI-Pareidolia: indicates what an AI model sees in the piece
+  * 52 values: Skateboard, Fish, Cake, Surfboard, Train, Skateboarder, Face, Woman, Cartoon, Vase, Flower, Scissors, Elephant, Fire-hydrant, Items, Dog, Tree, Kite, Striped, Flag, Collage, Shirt, Paint, Stuffed-animal, Graffiti, Air, People, Bird, Water, Rose, Table, Banana, Cow, Animal, Penguin, Checkered, Bear, Photo, Kitty, Horse, Toy, Sign, Painting, Airplane, Butterfly, Beach, Plant, Person, Girl, Wall, Cat, Man
+* Format: indicates whether the piece is an image or a short video
+  * 2 values: png, mp4
+
+## The Rarities
+
+The number of pieces out of 1,000 that have each trait are listed [here][rarities]. Also see [this][overall] for a few different ways of computing overall rarity scores of pieces.
+
+## The Artist
+
+Devi Parikh is an AI researcher and a generative artist. She also makes [Macrame][macrame], [Origami][origami], and maintains a physical [sketchbook][sketchbook] with kawaii doodles, zentangles, mandalas, paper cutting and sketches. 
 
 While evolving, her generative art so far has tended to have vibrant colors, geometric patterns, symmetries, and crisp textures co-existing with organic shapes. She gets inspiration from a variety of sources -- some mundane, some exotic; some traditional, some unexpected; some specific, some diffused -- colors in rare stones, textures in snake skins, graffiti, wall art, digital illustrations, acrylic pouring, mandalas, ethnic fabrics, looking out the window during a long taxi ride, Indian culture, or feedback from a trusted friend. She maintains an ever growing list of ideas -- ranging from small tweaks to an existing project to entirely new projects or styles. Her process involves starting with an idea, prototyping the core of it to see if it feels right, and then iterating, iterating, iterating. The joy and mystery is in seeing where the iterations lead!
 
@@ -58,66 +81,17 @@ She has dabbled in sketching, painting, origami, dancing, music all her life -- 
 
 Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can also find her on [Twitter][tw], [Instagram][insta], [Foundation][fnd] and [fxhash][fxhash]. 
 
-## The Visuals
-
-Below are several Aragnations.
-
-<div class = 'art'>
-  {% for person in site.data.aragnation_1 %}
-  <div class = 'aragnationpiece'>
-    <a href = '{{ person.link }}'><img src = '{{person.link}}' alt = 'Aragnation'></a>
-  </div>
-  {% endfor %}
-</div>
-
-<div class = 'fullartpiece'>
-<a href = './static/img/aragnation_11.jpg'><img src = './static/img/aragnation_11.jpg' alt = 'Aragnation'></a>
-</div>
-
-<div class = 'art'>
-  {% for person in site.data.aragnation_2 %}
-  <div class = 'aragnationpiece'>
-    <a href = '{{ person.link }}'><img src = '{{person.link}}' alt = 'Aragnation'></a>
-  </div>
-  {% endfor %}
-</div>
-
-<div class = 'fullartpiece'>
-<a href = './static/img/aragnation_22.jpg'><img src = './static/img/aragnation_22.jpg' alt = 'Aragnation'></a>
-</div>
-
-<div class = 'art'>
-  {% for person in site.data.aragnation_3 %}
-  <div class = 'aragnationpiece'>
-    <a href = '{{ person.link }}'><img src = '{{person.link}}' alt = 'Aragnation'></a>
-  </div>
-  {% endfor %}
-</div>
-
-<div class = 'fullartpiece'>
-<a href = './static/img/aragnation_33.jpg'><img src = './static/img/aragnation_33.jpg' alt = 'Aragnation'></a>
-</div>
-
-<div class = 'art'>
-  {% for person in site.data.aragnation_4 %}
-  <div class = 'aragnationpiece'>
-    <a href = '{{ person.link }}'><img src = '{{person.link}}' alt = 'Aragnation'></a>
-  </div>
-  {% endfor %}
-</div>
-
-
-[artblocks]: https://www.artblocks.io/
-[das]: https://abhishekdas.com/art/
-[devi]: http://stateoftheheart.ai/
-[das-photos]: https://www.instagram.com/abhshkdz/
-[aragnation]: https://deviparikh.github.io/aragnation/
+[braindrops]: https://twitter.com/braindrops_art
 [sketchbook]: https://www.cc.gatech.edu/~parikh/sketchbook.html
 [macrame]: https://www.cc.gatech.edu/~parikh/macrame.html
 [origami]: https://www.cc.gatech.edu/~parikh/origami.html
 [soth]: http://stateoftheheart.ai/ 
+[rorschach]: https://en.wikipedia.org/wiki/Rorschach_test
+[pareidolia]: https://en.wikipedia.org/wiki/Pareidolia
 [devi]: https://www.cc.gatech.edu/~parikh/
 [tw]: https://twitter.com/deviparikh
 [insta]: https://www.instagram.com/deviparikh/
 [fnd]: https://foundation.app/@deviparikh
-[fxhash]:  https://www.fxhash.xyz/u/Devi%20Parikh
+[fxhash]: https://www.fxhash.xyz/u/Devi%20Parikh
+[rarities]: https://deviparikh.github.io/confluence/static/rarities.txt
+[overall]: https://deviparikh.github.io/confluence/static/overall_rarity_scores.txt
